@@ -12,6 +12,35 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-menu {
+  display: flex;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+
+.right-menu {
+  display: flex;
 }
 
 .profile-image {
@@ -22,13 +51,6 @@ body {
   height: 48px;
 }
 
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-}
-
 button {
   border: none;
   border-radius: 8px;
@@ -37,12 +59,3 @@ button {
   padding: 8px 24px;
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
-}
