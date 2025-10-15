@@ -14,10 +14,16 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+
 }
 
 .left-menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 
 .logo {
@@ -30,6 +36,9 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -41,6 +50,10 @@ a {
 
 .right-menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
 }
 
 .profile-image {
