@@ -38,12 +38,12 @@ body {
   justify-content: center;
 }
 
-.container-modal {
+.container-modal-lower {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.container-header {
+.container-modal-lower-header {
   display: flex;
   justify-content: space-between;
 }

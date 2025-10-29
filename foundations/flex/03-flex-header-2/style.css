@@ -42,7 +42,6 @@ ul {
 }
 
 a {
-  /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
@@ -71,4 +70,3 @@ button {
   color: white;
   padding: 8px 24px;
 }
-
