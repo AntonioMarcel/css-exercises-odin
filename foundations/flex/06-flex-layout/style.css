@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*flex-direction: column on body and flex: 1 on content to push footer down*/
 }
 
 .header {
@@ -38,7 +38,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 1; /*flex-direction: column on body and flex: 1 on content to push footer down*/
   gap: 16px;
 }
 
