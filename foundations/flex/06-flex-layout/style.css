@@ -9,7 +9,7 @@ body {
   flex-direction: column; /*flex-direction: column on body and flex: 1 on content to push footer down*/
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   background-color: #f0f0f0; /* light grey background for the bar */
@@ -66,9 +66,3 @@ button:hover {
   cursor: pointer;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f0f0f0; /* light grey background for the bar */
-  padding: 16px;        
-}
